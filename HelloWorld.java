@@ -14,7 +14,7 @@ public class HelloWorld extends Applet
     {
         String s="Hello World";
         super.paint(g);
-        g.setColor( Color.green );
+        g.setColor( Color.blue );
         g.drawString(s, 10, 100);
     }
 }
